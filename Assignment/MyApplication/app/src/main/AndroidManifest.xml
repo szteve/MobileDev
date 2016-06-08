@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.steve.myapplication" >
+
+    //enable internet usage, found here : https://teamtreehouse.com/community/how-can-i-request-permission-to-access-the-internet-in-android-studio
+    <uses-permission android:name="android.permission.INTERNET"> </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/smile"
+        android:label="Christmas List"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="Christmas List"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".List" android:label="Christmas List"/>
+        <activity android:name=".EditField" android:label="Christmas List"/>
+        <activity android:name=".Name_info" android:label="Christmas List"/>
+        <activity android:name=".Update_info" android:label="Christmas List"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Listname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="100dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="20dp"
+        android:textColor="#100000"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true">
+    </TextView>
+
+    <TextView
+        android:id="@+id/Listgift"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="100dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="20dp"
+        android:textColor="#100000"
+        android:textStyle="bold"
+        android:layout_below="@+id/Listname">
+    </TextView>
+
+    <TextView
+        android:id="@+id/Listprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="100dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="20dp"
+        android:textColor="#100000"
+        android:textStyle="bold"
+        android:layout_below="@+id/Listgift">
+    </TextView>
+
+    <TextView
+        android:id="@+id/Liststore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="100dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="20dp"
+        android:textColor="#100000"
+        android:textStyle="bold"
+        android:layout_below="@+id/Listprice">
+    </TextView>
+
+    <TextView
+        android:id="@+id/Listbought"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="100dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="20dp"
+        android:textColor="#100000"
+        android:textStyle="bold"
+        android:layout_below="@+id/Liststore">
+    </TextView>
+
+</RelativeLayout>
